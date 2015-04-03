@@ -1,0 +1,26 @@
+{
+  "name": "query-mobile-phone-area",
+  "version": "1.0.0",
+  "description": "查询手机号码归属地",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha -t 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuperID/query-mobile-phone-area"
+  },
+  "keywords": [
+    "query",
+    "mobile",
+    "phone",
+    "area",
+    "belong"
+  ],
+  "author": "Zongmin Lei <leizongmin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuperID/query-mobile-phone-area/issues"
+  },
+  "homepage": "https://github.com/SuperID/query-mobile-phone-area"
+}
