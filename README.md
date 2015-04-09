@@ -19,7 +19,7 @@ console.log(query('13800138000'));
 // 输出： {province: '北京', city: '北京', type: '中国移动'}
 
 // 查询国际号码
-console.log(query('8613800138000'));
+console.log(query.queryCountry('8613800138000'));
 // 输出： {country: '中国', code: 'CN', number: '13800138000'}
 ```
 

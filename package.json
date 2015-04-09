@@ -1,6 +1,6 @@
 {
   "name": "query-mobile-phone-area",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "查询手机号码归属地",
   "main": "index.js",
   "scripts": {
