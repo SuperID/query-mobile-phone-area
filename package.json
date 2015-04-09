@@ -1,6 +1,6 @@
 {
   "name": "query-mobile-phone-area",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "查询手机号码归属地",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,9 @@
   "homepage": "https://github.com/SuperID/query-mobile-phone-area",
   "dependencies": {
     "debug": "^2.1.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^5.2.0"
   }
 }
