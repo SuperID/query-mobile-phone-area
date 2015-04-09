@@ -4,8 +4,14 @@
  * @author Zongmin Lei <leizongmin@gmail.com>
  */
 
-var load = require('./lib/load');
+var query = require('./lib/query').query;
+var queryCountry = require('./lib/query_country').query;
+
 
 module.exports = exports = function (number) {
-  return load.query(load.data, number);
+  return query(number);
 };
+
+exports.query = query;
+
+exports.queryCountry = queryCountry;
