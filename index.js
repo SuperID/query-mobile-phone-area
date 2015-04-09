@@ -6,6 +6,7 @@
 
 var query = require('./lib/query').query;
 var queryCountry = require('./lib/query_country').query;
+var queryCountryInfo = require('./lib/query_country').queryInfo;
 
 
 module.exports = exports = function (number) {
@@ -15,3 +16,5 @@ module.exports = exports = function (number) {
 exports.query = query;
 
 exports.queryCountry = queryCountry;
+
+exports.queryCountryInfo = queryCountryInfo;

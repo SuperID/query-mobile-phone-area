@@ -31,4 +31,9 @@ describe('query-mobile-phone-area', function () {
     query.queryCountry('+008613800138000').should.eql({country: '中国', enCountry: 'China', code: 'CN', number: '13800138000'});
   });
 
+  it('query.queryCountryInfo()', function () {
+    query.queryCountryInfo('CN').should.eql({code: 'CN', enName: 'China', name: '中国', number: '86'});
+    query.queryCountryInfo('US').should.eql({code: 'US', enName: 'United States', name: '美国', number: '1'});
+  });
+
 });
