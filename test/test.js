@@ -21,14 +21,14 @@ describe('query-mobile-phone-area', function () {
   });
 
   it('query.queryCountry()', function () {
-    query.queryCountry(112345).should.eql({country: '美国', code: 'US', number: '12345'});
-    query.queryCountry('112345').should.eql({country: '美国', code: 'US', number: '12345'});
-    query.queryCountry('00112345').should.eql({country: '美国', code: 'US', number: '12345'});
-    query.queryCountry('+112345').should.eql({country: '美国', code: 'US', number: '12345'});
-    query.queryCountry(8613800138000).should.eql({country: '中国', code: 'CN', number: '13800138000'});
-    query.queryCountry('008613800138000').should.eql({country: '中国', code: 'CN', number: '13800138000'});
-    query.queryCountry('+8613800138000').should.eql({country: '中国', code: 'CN', number: '13800138000'});
-    query.queryCountry('+008613800138000').should.eql({country: '中国', code: 'CN', number: '13800138000'});
+    query.queryCountry(112345).should.eql({country: '美国', enCountry: 'United States', code: 'US', number: '12345'});
+    query.queryCountry('112345').should.eql({country: '美国', enCountry: 'United States', code: 'US', number: '12345'});
+    query.queryCountry('00112345').should.eql({country: '美国', enCountry: 'United States', code: 'US', number: '12345'});
+    query.queryCountry('+112345').should.eql({country: '美国', enCountry: 'United States', code: 'US', number: '12345'});
+    query.queryCountry(8613800138000).should.eql({country: '中国', enCountry: 'China', code: 'CN', number: '13800138000'});
+    query.queryCountry('008613800138000').should.eql({country: '中国', enCountry: 'China', code: 'CN', number: '13800138000'});
+    query.queryCountry('+8613800138000').should.eql({country: '中国', enCountry: 'China', code: 'CN', number: '13800138000'});
+    query.queryCountry('+008613800138000').should.eql({country: '中国', enCountry: 'China', code: 'CN', number: '13800138000'});
   });
 
 });

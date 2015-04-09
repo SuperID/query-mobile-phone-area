@@ -20,7 +20,7 @@ console.log(query('13800138000'));
 
 // 查询国际号码
 console.log(query.queryCountry('8613800138000'));
-// 输出： {country: '中国', code: 'CN', number: '13800138000'}
+// 输出： {country: '中国', enCountry: 'China', code: 'CN', number: '13800138000'}
 ```
 
 
